@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B202BAA4A4700160C54 /* AppDelegate.swift */; };
+		45C54B232BAA4A4700160C54 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B222BAA4A4700160C54 /* GameViewController.swift */; };
+		45C54B262BAA4A4700160C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B242BAA4A4700160C54 /* Main.storyboard */; };
+		45C54B292BAA4A4700160C54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B272BAA4A4700160C54 /* LaunchScreen.storyboard */; };
+		45C54B312BAA4A4700160C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B302BAA4A4700160C54 /* AppDelegate.swift */; };
+		45C54B332BAA4A4700160C54 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B322BAA4A4700160C54 /* GameViewController.swift */; };
+		45C54B362BAA4A4700160C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B342BAA4A4700160C54 /* Main.storyboard */; };
+		45C54B382BAA4A4700160C54 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B162BAA4A4500160C54 /* GameController.swift */; };
+		45C54B392BAA4A4700160C54 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B162BAA4A4500160C54 /* GameController.swift */; };
+		45C54B3A2BAA4A4700160C54 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B172BAA4A4500160C54 /* Art.scnassets */; };
+		45C54B3B2BAA4A4700160C54 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B172BAA4A4500160C54 /* Art.scnassets */; };
+		45C54B3C2BAA4A4700160C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B182BAA4A4700160C54 /* Assets.xcassets */; };
+		45C54B3D2BAA4A4700160C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B182BAA4A4700160C54 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45C54B162BAA4A4500160C54 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		45C54B172BAA4A4500160C54 /* Art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Art.scnassets; sourceTree = "<group>"; };
+		45C54B182BAA4A4700160C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45C54B1D2BAA4A4700160C54 /* Slender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C54B202BAA4A4700160C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45C54B222BAA4A4700160C54 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		45C54B252BAA4A4700160C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C54B282BAA4A4700160C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45C54B2E2BAA4A4700160C54 /* Slender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Slender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C54B302BAA4A4700160C54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45C54B322BAA4A4700160C54 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		45C54B352BAA4A4700160C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45C54B372BAA4A4700160C54 /* Slender_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slender_macOS.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45C54B1A2BAA4A4700160C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C54B2B2BAA4A4700160C54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45C54B102BAA4A4400160C54 = {
+			isa = PBXGroup;
+			children = (
+				45C54B152BAA4A4500160C54 /* Slender Shared */,
+				45C54B1F2BAA4A4700160C54 /* Slender iOS */,
+				45C54B2F2BAA4A4700160C54 /* Slender macOS */,
+				45C54B1E2BAA4A4700160C54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45C54B152BAA4A4500160C54 /* Slender Shared */ = {
+			isa = PBXGroup;
+			children = (
+				45C54B162BAA4A4500160C54 /* GameController.swift */,
+				45C54B172BAA4A4500160C54 /* Art.scnassets */,
+				45C54B182BAA4A4700160C54 /* Assets.xcassets */,
+			);
+			path = "Slender Shared";
+			sourceTree = "<group>";
+		};
+		45C54B1E2BAA4A4700160C54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45C54B1D2BAA4A4700160C54 /* Slender.app */,
+				45C54B2E2BAA4A4700160C54 /* Slender.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45C54B1F2BAA4A4700160C54 /* Slender iOS */ = {
+			isa = PBXGroup;
+			children = (
+				45C54B202BAA4A4700160C54 /* AppDelegate.swift */,
+				45C54B222BAA4A4700160C54 /* GameViewController.swift */,
+				45C54B242BAA4A4700160C54 /* Main.storyboard */,
+				45C54B272BAA4A4700160C54 /* LaunchScreen.storyboard */,
+			);
+			path = "Slender iOS";
+			sourceTree = "<group>";
+		};
+		45C54B2F2BAA4A4700160C54 /* Slender macOS */ = {
+			isa = PBXGroup;
+			children = (
+				45C54B302BAA4A4700160C54 /* AppDelegate.swift */,
+				45C54B322BAA4A4700160C54 /* GameViewController.swift */,
+				45C54B342BAA4A4700160C54 /* Main.storyboard */,
+				45C54B372BAA4A4700160C54 /* Slender_macOS.entitlements */,
+			);
+			path = "Slender macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45C54B1C2BAA4A4700160C54 /* Slender iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C54B402BAA4A4700160C54 /* Build configuration list for PBXNativeTarget "Slender iOS" */;
+			buildPhases = (
+				45C54B192BAA4A4700160C54 /* Sources */,
+				45C54B1A2BAA4A4700160C54 /* Frameworks */,
+				45C54B1B2BAA4A4700160C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slender iOS";
+			productName = "Slender iOS";
+			productReference = 45C54B1D2BAA4A4700160C54 /* Slender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45C54B2D2BAA4A4700160C54 /* Slender macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45C54B432BAA4A4700160C54 /* Build configuration list for PBXNativeTarget "Slender macOS" */;
+			buildPhases = (
+				45C54B2A2BAA4A4700160C54 /* Sources */,
+				45C54B2B2BAA4A4700160C54 /* Frameworks */,
+				45C54B2C2BAA4A4700160C54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Slender macOS";
+			productName = "Slender macOS";
+			productReference = 45C54B2E2BAA4A4700160C54 /* Slender.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45C54B112BAA4A4400160C54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					45C54B1C2BAA4A4700160C54 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					45C54B2D2BAA4A4700160C54 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 45C54B142BAA4A4400160C54 /* Build configuration list for PBXProject "Slender" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45C54B102BAA4A4400160C54;
+			productRefGroup = 45C54B1E2BAA4A4700160C54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45C54B1C2BAA4A4700160C54 /* Slender iOS */,
+				45C54B2D2BAA4A4700160C54 /* Slender macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45C54B1B2BAA4A4700160C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C54B262BAA4A4700160C54 /* Main.storyboard in Resources */,
+				45C54B292BAA4A4700160C54 /* LaunchScreen.storyboard in Resources */,
+				45C54B3C2BAA4A4700160C54 /* Assets.xcassets in Resources */,
+				45C54B3A2BAA4A4700160C54 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C54B2C2BAA4A4700160C54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C54B362BAA4A4700160C54 /* Main.storyboard in Resources */,
+				45C54B3D2BAA4A4700160C54 /* Assets.xcassets in Resources */,
+				45C54B3B2BAA4A4700160C54 /* Art.scnassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45C54B192BAA4A4700160C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C54B232BAA4A4700160C54 /* GameViewController.swift in Sources */,
+				45C54B382BAA4A4700160C54 /* GameController.swift in Sources */,
+				45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45C54B2A2BAA4A4700160C54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45C54B332BAA4A4700160C54 /* GameViewController.swift in Sources */,
+				45C54B392BAA4A4700160C54 /* GameController.swift in Sources */,
+				45C54B312BAA4A4700160C54 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45C54B242BAA4A4700160C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C54B252BAA4A4700160C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45C54B272BAA4A4700160C54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C54B282BAA4A4700160C54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		45C54B342BAA4A4700160C54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45C54B352BAA4A4700160C54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45C54B3E2BAA4A4700160C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45C54B3F2BAA4A4700160C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		45C54B412BAA4A4700160C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BPKDD8276;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.savikapps.Slender;
+				PRODUCT_NAME = Slender;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45C54B422BAA4A4700160C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BPKDD8276;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.savikapps.Slender;
+				PRODUCT_NAME = Slender;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45C54B442BAA4A4700160C54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Slender macOS/Slender_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BPKDD8276;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.savikapps.Slender;
+				PRODUCT_NAME = Slender;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		45C54B452BAA4A4700160C54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Slender macOS/Slender_macOS.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8BPKDD8276;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.savikapps.Slender;
+				PRODUCT_NAME = Slender;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45C54B142BAA4A4400160C54 /* Build configuration list for PBXProject "Slender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C54B3E2BAA4A4700160C54 /* Debug */,
+				45C54B3F2BAA4A4700160C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C54B402BAA4A4700160C54 /* Build configuration list for PBXNativeTarget "Slender iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C54B412BAA4A4700160C54 /* Debug */,
+				45C54B422BAA4A4700160C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45C54B432BAA4A4700160C54 /* Build configuration list for PBXNativeTarget "Slender macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45C54B442BAA4A4700160C54 /* Debug */,
+				45C54B452BAA4A4700160C54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45C54B112BAA4A4400160C54 /* Project object */;
+}
