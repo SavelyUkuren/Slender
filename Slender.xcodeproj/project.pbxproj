@@ -20,6 +20,12 @@
 		45C54B3B2BAA4A4700160C54 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B172BAA4A4500160C54 /* Art.scnassets */; };
 		45C54B3C2BAA4A4700160C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B182BAA4A4700160C54 /* Assets.xcassets */; };
 		45C54B3D2BAA4A4700160C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B182BAA4A4700160C54 /* Assets.xcassets */; };
+		45C54B482BAA558600160C54 /* Keycodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B472BAA558600160C54 /* Keycodes.swift */; };
+		45C54B492BAA558600160C54 /* Keycodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B472BAA558600160C54 /* Keycodes.swift */; };
+		45C54B4B2BAA5B3900160C54 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4A2BAA5B3900160C54 /* Vector2.swift */; };
+		45C54B4C2BAA5B3900160C54 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4A2BAA5B3900160C54 /* Vector2.swift */; };
+		45C54B4E2BAA66D900160C54 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4D2BAA66D900160C54 /* Character.swift */; };
+		45C54B4F2BAA66D900160C54 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4D2BAA66D900160C54 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,9 @@
 		45C54B322BAA4A4700160C54 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		45C54B352BAA4A4700160C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45C54B372BAA4A4700160C54 /* Slender_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slender_macOS.entitlements; sourceTree = "<group>"; };
+		45C54B472BAA558600160C54 /* Keycodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycodes.swift; sourceTree = "<group>"; };
+		45C54B4A2BAA5B3900160C54 /* Vector2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2.swift; sourceTree = "<group>"; };
+		45C54B4D2BAA66D900160C54 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +78,8 @@
 		45C54B152BAA4A4500160C54 /* Slender Shared */ = {
 			isa = PBXGroup;
 			children = (
+				45C54B462BAA557700160C54 /* Helpers */,
+				45C54B4D2BAA66D900160C54 /* Character.swift */,
 				45C54B162BAA4A4500160C54 /* GameController.swift */,
 				45C54B172BAA4A4500160C54 /* Art.scnassets */,
 				45C54B182BAA4A4700160C54 /* Assets.xcassets */,
@@ -105,6 +116,15 @@
 				45C54B372BAA4A4700160C54 /* Slender_macOS.entitlements */,
 			);
 			path = "Slender macOS";
+			sourceTree = "<group>";
+		};
+		45C54B462BAA557700160C54 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				45C54B472BAA558600160C54 /* Keycodes.swift */,
+				45C54B4A2BAA5B3900160C54 /* Vector2.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,8 +231,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C54B482BAA558600160C54 /* Keycodes.swift in Sources */,
 				45C54B232BAA4A4700160C54 /* GameViewController.swift in Sources */,
 				45C54B382BAA4A4700160C54 /* GameController.swift in Sources */,
+				45C54B4E2BAA66D900160C54 /* Character.swift in Sources */,
+				45C54B4B2BAA5B3900160C54 /* Vector2.swift in Sources */,
 				45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,8 +244,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C54B492BAA558600160C54 /* Keycodes.swift in Sources */,
 				45C54B332BAA4A4700160C54 /* GameViewController.swift in Sources */,
 				45C54B392BAA4A4700160C54 /* GameController.swift in Sources */,
+				45C54B4F2BAA66D900160C54 /* Character.swift in Sources */,
+				45C54B4C2BAA5B3900160C54 /* Vector2.swift in Sources */,
 				45C54B312BAA4A4700160C54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

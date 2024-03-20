@@ -18,6 +18,8 @@ class GameController: NSObject, SCNSceneRendererDelegate {
     let scene: SCNScene
     let sceneRenderer: SCNSceneRenderer
     
+    var character: Character?
+    
     init(sceneRenderer renderer: SCNSceneRenderer) {
         sceneRenderer = renderer
         scene = SCNScene(named: "Art.scnassets/MainScene.scn")!
@@ -26,10 +28,21 @@ class GameController: NSObject, SCNSceneRendererDelegate {
         
         sceneRenderer.delegate = self
         sceneRenderer.scene = scene
+        
+        loadCharacter()
     }
     
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
-        // Called before each frame is rendered
+        
+        
+        character?.update(renderer, updateAtTime: time)
     }
 
+    // MARK: Private section
+    private func loadCharacter() {
+        if let characterNode = scene.rootNode.childNode(withName: "character", recursively: true) {
+            character = Character(node: characterNode)
+        }
+    }
+    
 }
