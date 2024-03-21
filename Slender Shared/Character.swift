@@ -10,9 +10,30 @@ import SceneKit
 
 class Character: NSObject {
     
+    var velocity: CGFloat = 2
+    var direction: Vector2 = Vector2(x: 0, y: 0)
+    
     var node: SCNNode?
     
-    var direction: Vector2 = Vector2(x: 0, y: 0)
+    private var lastUpdateTime: CGFloat = 0
+    
+    var cameraDirection: Vector2 = Vector2(x: 0, y: 0) {
+        didSet {
+            if toDegree(cameraDirection.x) > 360 || toDegree(cameraDirection.x) < -360 {
+                cameraDirection.x = 0
+            }
+            
+            // If the player will enter the cursor up,
+            // then put a restriction so that it does not make circles around the X-axis
+            if cameraDirection.y > toRadian(90) {
+                cameraDirection.y = toRadian(90)
+            }
+            
+            if cameraDirection.y < -toRadian(90) {
+                cameraDirection.y = -toRadian(90)
+            }
+        }
+    }
     
     override init() {
         super.init()
@@ -23,6 +44,9 @@ class Character: NSObject {
     }
     
     func update(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
+        
+        let deltaTime = time - lastUpdateTime
+        
         // DO NOT REMOVE.
         // Because, if removed, when the player moves, he will teleport the initial Y coordinate
         if let position = node?.presentation.position {
@@ -30,11 +54,12 @@ class Character: NSObject {
         }
         
         if !direction.isZero {
-            let normalize = direction.normalize
-            node?.position.x += normalize.x / 10
-            node?.position.z += normalize.y / 10
+            let rotatedDirection = direction.rotateBy(angle: -cameraDirection.x).normalize
+            
+            node?.position.x += (rotatedDirection.x) * velocity * deltaTime
+            node?.position.z += (rotatedDirection.y) * velocity * deltaTime
         }
 
+        lastUpdateTime = time
     }
-    
 }
