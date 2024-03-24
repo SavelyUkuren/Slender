@@ -30,6 +30,8 @@
 		45FF99BE2BAB719800919B1F /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF99BC2BAB719800919B1F /* Math.swift */; };
 		45FF99C02BABB49300919B1F /* grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FF99BF2BABB49300919B1F /* grid.jpg */; };
 		45FF99C12BABB49300919B1F /* grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FF99BF2BABB49300919B1F /* grid.jpg */; };
+		45FF99D32BAC8D9700919B1F /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */; };
+		45FF99D42BAC8D9700919B1F /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +53,7 @@
 		45C54B4D2BAA66D900160C54 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		45FF99BC2BAB719800919B1F /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 		45FF99BF2BABB49300919B1F /* grid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grid.jpg; sourceTree = "<group>"; };
+		45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,7 @@
 			children = (
 				45FF99BF2BABB49300919B1F /* grid.jpg */,
 				45C54B462BAA557700160C54 /* Helpers */,
+				45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */,
 				45C54B4D2BAA66D900160C54 /* Character.swift */,
 				45C54B162BAA4A4500160C54 /* GameController.swift */,
 				45C54B172BAA4A4500160C54 /* Art.scnassets */,
@@ -247,6 +251,7 @@
 				45FF99BD2BAB719800919B1F /* Math.swift in Sources */,
 				45C54B4E2BAA66D900160C54 /* Character.swift in Sources */,
 				45C54B4B2BAA5B3900160C54 /* Vector2.swift in Sources */,
+				45FF99D32BAC8D9700919B1F /* PhysicsCategories.swift in Sources */,
 				45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +266,7 @@
 				45FF99BE2BAB719800919B1F /* Math.swift in Sources */,
 				45C54B4F2BAA66D900160C54 /* Character.swift in Sources */,
 				45C54B4C2BAA5B3900160C54 /* Vector2.swift in Sources */,
+				45FF99D42BAC8D9700919B1F /* PhysicsCategories.swift in Sources */,
 				45C54B312BAA4A4700160C54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
