@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B70BE32BB0E2A2003BA92A /* Slender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE22BB0E2A2003BA92A /* Slender.swift */; };
+		45B70BE42BB0E2A2003BA92A /* Slender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE22BB0E2A2003BA92A /* Slender.swift */; };
 		45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B202BAA4A4700160C54 /* AppDelegate.swift */; };
 		45C54B232BAA4A4700160C54 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B222BAA4A4700160C54 /* GameViewController.swift */; };
 		45C54B262BAA4A4700160C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B242BAA4A4700160C54 /* Main.storyboard */; };
@@ -35,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45B70BE22BB0E2A2003BA92A /* Slender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slender.swift; sourceTree = "<group>"; };
 		45C54B162BAA4A4500160C54 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		45C54B172BAA4A4500160C54 /* Art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Art.scnassets; sourceTree = "<group>"; };
 		45C54B182BAA4A4700160C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +94,7 @@
 				45C54B462BAA557700160C54 /* Helpers */,
 				45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */,
 				45C54B4D2BAA66D900160C54 /* Character.swift */,
+				45B70BE22BB0E2A2003BA92A /* Slender.swift */,
 				45C54B162BAA4A4500160C54 /* GameController.swift */,
 				45C54B172BAA4A4500160C54 /* Art.scnassets */,
 				45C54B182BAA4A4700160C54 /* Assets.xcassets */,
@@ -252,6 +256,7 @@
 				45C54B4E2BAA66D900160C54 /* Character.swift in Sources */,
 				45C54B4B2BAA5B3900160C54 /* Vector2.swift in Sources */,
 				45FF99D32BAC8D9700919B1F /* PhysicsCategories.swift in Sources */,
+				45B70BE32BB0E2A2003BA92A /* Slender.swift in Sources */,
 				45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +272,7 @@
 				45C54B4F2BAA66D900160C54 /* Character.swift in Sources */,
 				45C54B4C2BAA5B3900160C54 /* Vector2.swift in Sources */,
 				45FF99D42BAC8D9700919B1F /* PhysicsCategories.swift in Sources */,
+				45B70BE42BB0E2A2003BA92A /* Slender.swift in Sources */,
 				45C54B312BAA4A4700160C54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -34,6 +34,8 @@ class GameController: NSObject, SCNSceneRendererDelegate {
     var character: Character?
     var camera: SCNNode?
     
+    var slender: Slender?
+    
     private var pages: [SCNNode] = []
     
     init(sceneRenderer renderer: SCNSceneRenderer) {
@@ -49,6 +51,7 @@ class GameController: NSObject, SCNSceneRendererDelegate {
         loadCharacter()
         loadCamera()
         loadPages()
+        loadSlender()
     }
     
     func renderer(_ renderer: SCNSceneRenderer, updateAtTime time: TimeInterval) {
@@ -97,6 +100,19 @@ class GameController: NSObject, SCNSceneRendererDelegate {
                 sphereTrigger.physicsBody?.collisionBitMask = PhysicsCategories.Character
                 sphereTrigger.physicsBody?.contactTestBitMask = PhysicsCategories.Character
             }
+        }
+    }
+    
+    private func loadSlender() {
+        if let slenderNode = scene.rootNode.childNode(withName: "Slender", recursively: true) {
+            
+            slender = Slender(node: slenderNode)
+            slender?.spawnRadius = 10
+            slender?.scene = scene
+            slender?.aroundNode = character?.node
+            
+            slender?.startActivity()
+            
         }
     }
     
