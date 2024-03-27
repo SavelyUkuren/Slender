@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		453BFD3F2BB4B7AE00DD88DC /* Terrain.dae in Resources */ = {isa = PBXBuildFile; fileRef = 453BFD3E2BB4B7AE00DD88DC /* Terrain.dae */; };
+		453BFD402BB4B7AE00DD88DC /* Terrain.dae in Resources */ = {isa = PBXBuildFile; fileRef = 453BFD3E2BB4B7AE00DD88DC /* Terrain.dae */; };
 		45B70BE32BB0E2A2003BA92A /* Slender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE22BB0E2A2003BA92A /* Slender.swift */; };
 		45B70BE42BB0E2A2003BA92A /* Slender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE22BB0E2A2003BA92A /* Slender.swift */; };
 		45B70BEA2BB193CE003BA92A /* GameOverlayMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE82BB193CE003BA92A /* GameOverlayMacOS.swift */; };
@@ -40,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		453BFD3E2BB4B7AE00DD88DC /* Terrain.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Terrain.dae; sourceTree = "<group>"; };
 		45B70BE22BB0E2A2003BA92A /* Slender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slender.swift; sourceTree = "<group>"; };
 		45B70BE82BB193CE003BA92A /* GameOverlayMacOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverlayMacOS.swift; sourceTree = "<group>"; };
 		45B70BED2BB2C41E003BA92A /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
@@ -82,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		453BFD3D2BB4B79500DD88DC /* TempResources */ = {
+			isa = PBXGroup;
+			children = (
+				453BFD3E2BB4B7AE00DD88DC /* Terrain.dae */,
+			);
+			path = TempResources;
+			sourceTree = "<group>";
+		};
 		45C54B102BAA4A4400160C54 = {
 			isa = PBXGroup;
 			children = (
@@ -95,6 +106,7 @@
 		45C54B152BAA4A4500160C54 /* Slender Shared */ = {
 			isa = PBXGroup;
 			children = (
+				453BFD3D2BB4B79500DD88DC /* TempResources */,
 				45FF99BF2BABB49300919B1F /* grid.jpg */,
 				45C54B462BAA557700160C54 /* Helpers */,
 				45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */,
@@ -232,6 +244,7 @@
 			files = (
 				45C54B262BAA4A4700160C54 /* Main.storyboard in Resources */,
 				45FF99C02BABB49300919B1F /* grid.jpg in Resources */,
+				453BFD3F2BB4B7AE00DD88DC /* Terrain.dae in Resources */,
 				45C54B292BAA4A4700160C54 /* LaunchScreen.storyboard in Resources */,
 				45C54B3C2BAA4A4700160C54 /* Assets.xcassets in Resources */,
 				45C54B3A2BAA4A4700160C54 /* Art.scnassets in Resources */,
@@ -245,6 +258,7 @@
 				45C54B362BAA4A4700160C54 /* Main.storyboard in Resources */,
 				45FF99C12BABB49300919B1F /* grid.jpg in Resources */,
 				45C54B3D2BAA4A4700160C54 /* Assets.xcassets in Resources */,
+				453BFD402BB4B7AE00DD88DC /* Terrain.dae in Resources */,
 				45C54B3B2BAA4A4700160C54 /* Art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

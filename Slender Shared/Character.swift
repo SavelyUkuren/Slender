@@ -50,8 +50,9 @@ class Character: NSObject {
         
         // DO NOT REMOVE.
         // Because, if removed, when the player moves, he will teleport the initial Y coordinate
-        if let position = node?.presentation.position {
-            node?.position.y = position.y
+        // Or shaking when player will be very close to the collision object
+        if let presentation = node?.presentation {
+            node?.transform = presentation.transform
         }
         
         if !direction.isZero {

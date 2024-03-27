@@ -27,6 +27,7 @@ class Slender: NSObject {
     init(node: SCNNode) {
         self.node = node
         
+        super.init()
         
     }
     
@@ -35,7 +36,6 @@ class Slender: NSObject {
                                           target: self,
                                           selector: #selector(changePosition),
                                           userInfo: nil, repeats: true)
-        
     }
     
     func stopActivity() {
@@ -56,8 +56,9 @@ class Slender: NSObject {
         4) Find Slender's point of contact with the ground by beaming upwards.
         5) Seting new position
      */
-    @objc private func changePosition() {
-        node.position.y = -10
+    var a = true
+    @objc  func changePosition() {
+        node.position.y = -30
         
         var randomPosition: Vector2 = Vector2(x: CGFloat.random(in: -1...1),
                                               y: CGFloat.random(in: -1...1)).normalize
@@ -67,18 +68,28 @@ class Slender: NSObject {
         
         let x: CGFloat = aroundNode!.position.x + randomPosition.x
         let z: CGFloat = aroundNode!.position.z + randomPosition.y
+        
+        node.position.x = x
+        node.position.z = z
  
         let yNewLocation = raycastFromSlenderToGround().y + (height / 2)
-        
-        node.position = SCNVector3(x, yNewLocation, z)
+        node.position.y = yNewLocation
         
     }
     
     private func raycastFromSlenderToGround() -> SCNVector3 {
+        
         let result = scene?.rootNode.hitTestWithSegment(from: node.position, to: SCNVector3(node.position.x,
-                                                                                            node.position.y + 20,
+                                                                                            node.position.y + 100,
                                                                                             node.position.z))
-        return result!.first!.worldCoordinates
+        // It was necessary to visualize the intersection point. Not need anymore
+//        let sphere = SCNSphere(radius: 0.1)
+//        let sphereNode = SCNNode(geometry: sphere)
+//        sphereNode.position = result!.first?.worldCoordinates ?? SCNVector3(0, 0, 0)
+//        sphereNode.name = "Sphere"
+//        scene?.rootNode.addChildNode(sphereNode)
+        
+        return result!.first?.worldCoordinates ?? SCNVector3(0, 0, 0)
     }
     
 }
