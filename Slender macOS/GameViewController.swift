@@ -20,7 +20,7 @@ class GameViewController: NSViewController {
     
     private var lastMousePosition: CGPoint = .zero
     
-    private var isCharacterMove = false
+    private var overlay: GameOverlayMacOS?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,10 @@ class GameViewController: NSViewController {
         self.gameView.backgroundColor = NSColor.black
         self.gameView.frame = NSRect(x: 0, y: 0, width: 1024, height: 640)
         gameController.scnView = gameView
+        
+        overlay = GameOverlayMacOS(size: gameView.bounds.size)
+        overlay?.gameView = self
+        gameView.overlaySKScene = overlay
         
         addMouseTrackingArea()
         

@@ -12,6 +12,7 @@ class Character: NSObject {
     
     var velocity: CGFloat = 4
     var direction: Vector2 = Vector2(x: 0, y: 0)
+    var collectedPages: Int = 0
     
     var node: SCNNode?
     

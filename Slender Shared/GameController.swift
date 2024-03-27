@@ -122,8 +122,13 @@ class GameController: NSObject, SCNSceneRendererDelegate {
     }
     
     private func collectPage(_ page: SCNNode) {
-        pages.removeAll(where: { $0 == page })
+        character?.collectedPages += 1
         
+        if let overlay = scnView?.overlaySKScene as? GameOverlayMacOS {
+            overlay.updateCollectedPagesLabel(pages: character!.collectedPages)
+        }
+        
+        pages.removeAll(where: { $0 == page })
         page.removeFromParentNode()
     }
     
@@ -135,6 +140,10 @@ extension GameController: SCNPhysicsContactDelegate {
         
         switch collision {
         case PhysicsCategories.Character | PhysicsCategories.Page:
+            
+            if let overlay = scnView?.overlaySKScene as? GameOverlayMacOS {
+                overlay.updateCollectedPagesLabel(pages: character!.collectedPages)
+            }
             
             let collisionSphere = contact.nodeA.name == "collisionSphere" ? contact.nodeA : contact.nodeB
             let parentNode = collisionSphere.parent

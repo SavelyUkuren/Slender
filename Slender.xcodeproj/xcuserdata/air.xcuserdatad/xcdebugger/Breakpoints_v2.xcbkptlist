@@ -14,8 +14,8 @@
             filePath = "Slender macOS/GameViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "84"
-            endingLineNumber = "84"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "keyUp(with:)"
             landmarkType = "7">
             <Locations>
@@ -48,54 +48,6 @@
                   startingLineNumber = "89"
                   endingLineNumber = "89"
                   offsetFromSymbolStart = "560">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E01D2801-685D-4924-8470-E5CA04D15D82"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Slender Shared/GameController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "loadPages()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E01D2801-685D-4924-8470-E5CA04D15D82 - 77eb9124ffc25599"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Slender.GameController.loadPages() -&gt; ()"
-                  moduleName = "Slender"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/air/Projects/Slender/Slender%20Shared/GameController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "94"
-                  endingLineNumber = "94"
-                  offsetFromSymbolStart = "284">
-               </Location>
-               <Location
-                  uuid = "E01D2801-685D-4924-8470-E5CA04D15D82 - 5ba460f082d57f0b"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #2 (__C.SCNNode) -&gt; () in Slender.GameController.loadPages() -&gt; ()"
-                  moduleName = "Slender"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/air/Projects/Slender/Slender%20Shared/GameController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "95"
-                  endingLineNumber = "95"
-                  offsetFromSymbolStart = "64">
                </Location>
             </Locations>
          </BreakpointContent>
