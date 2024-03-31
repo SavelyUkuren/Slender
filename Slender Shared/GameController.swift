@@ -38,6 +38,8 @@ class GameController: NSObject, SCNSceneRendererDelegate {
     
     private var pages: [SCNNode] = []
     
+    private var treeConfigurator: TreesConfigurator?
+    
     init(sceneRenderer renderer: SCNSceneRenderer) {
         sceneRenderer = renderer
         scene = SCNScene(named: "Art.scnassets/MainScene.scn")!
