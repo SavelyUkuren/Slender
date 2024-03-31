@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "5E30F472-D9A1-4DF2-A059-218492EBF753"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F7FB39F-E3AA-4C43-BDE4-EE367D15AFAB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Slender macOS/GameViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "keyUp(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2F7FB39F-E3AA-4C43-BDE4-EE367D15AFAB - d622fde27424987c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Slender.GameViewController.keyUp(with: __C.NSEvent) -&gt; ()"
+                  moduleName = "Slender"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/air/Projects/Slender/Slender%20macOS/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "564">
+               </Location>
+               <Location
+                  uuid = "2F7FB39F-E3AA-4C43-BDE4-EE367D15AFAB - d622fde27424987c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Slender.GameViewController.keyUp(with: __C.NSEvent) -&gt; ()"
+                  moduleName = "Slender"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/air/Projects/Slender/Slender%20macOS/GameViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "89"
+                  endingLineNumber = "89"
+                  offsetFromSymbolStart = "560">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

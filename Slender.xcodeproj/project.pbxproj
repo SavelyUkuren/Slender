@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45B70BE32BB0E2A2003BA92A /* Slender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE22BB0E2A2003BA92A /* Slender.swift */; };
+		45B70BE42BB0E2A2003BA92A /* Slender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE22BB0E2A2003BA92A /* Slender.swift */; };
+		45B70BEA2BB193CE003BA92A /* GameOverlayMacOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BE82BB193CE003BA92A /* GameOverlayMacOS.swift */; };
+		45B70BEE2BB2C41E003BA92A /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BED2BB2C41E003BA92A /* CGPointExtension.swift */; };
+		45B70BEF2BB2C41E003BA92A /* CGPointExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B70BED2BB2C41E003BA92A /* CGPointExtension.swift */; };
 		45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B202BAA4A4700160C54 /* AppDelegate.swift */; };
 		45C54B232BAA4A4700160C54 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B222BAA4A4700160C54 /* GameViewController.swift */; };
 		45C54B262BAA4A4700160C54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B242BAA4A4700160C54 /* Main.storyboard */; };
@@ -20,9 +25,32 @@
 		45C54B3B2BAA4A4700160C54 /* Art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B172BAA4A4500160C54 /* Art.scnassets */; };
 		45C54B3C2BAA4A4700160C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B182BAA4A4700160C54 /* Assets.xcassets */; };
 		45C54B3D2BAA4A4700160C54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45C54B182BAA4A4700160C54 /* Assets.xcassets */; };
+		45C54B482BAA558600160C54 /* Keycodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B472BAA558600160C54 /* Keycodes.swift */; };
+		45C54B492BAA558600160C54 /* Keycodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B472BAA558600160C54 /* Keycodes.swift */; };
+		45C54B4B2BAA5B3900160C54 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4A2BAA5B3900160C54 /* Vector2.swift */; };
+		45C54B4C2BAA5B3900160C54 /* Vector2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4A2BAA5B3900160C54 /* Vector2.swift */; };
+		45C54B4E2BAA66D900160C54 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4D2BAA66D900160C54 /* Character.swift */; };
+		45C54B4F2BAA66D900160C54 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C54B4D2BAA66D900160C54 /* Character.swift */; };
+		45C677E92BB95E86000791FC /* Tree2.dae in Resources */ = {isa = PBXBuildFile; fileRef = 45C677E42BB95E86000791FC /* Tree2.dae */; };
+		45C677EA2BB95E86000791FC /* Tree2.dae in Resources */ = {isa = PBXBuildFile; fileRef = 45C677E42BB95E86000791FC /* Tree2.dae */; };
+		45C677EB2BB95E86000791FC /* Trees.dae in Resources */ = {isa = PBXBuildFile; fileRef = 45C677E52BB95E86000791FC /* Trees.dae */; };
+		45C677EC2BB95E86000791FC /* Trees.dae in Resources */ = {isa = PBXBuildFile; fileRef = 45C677E52BB95E86000791FC /* Trees.dae */; };
+		45C677ED2BB95E86000791FC /* Terrain.dae in Resources */ = {isa = PBXBuildFile; fileRef = 45C677E62BB95E86000791FC /* Terrain.dae */; };
+		45C677EE2BB95E86000791FC /* Terrain.dae in Resources */ = {isa = PBXBuildFile; fileRef = 45C677E62BB95E86000791FC /* Terrain.dae */; };
+		45C678202BB96867000791FC /* TreesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6781F2BB96867000791FC /* TreesConfigurator.swift */; };
+		45C678212BB96867000791FC /* TreesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C6781F2BB96867000791FC /* TreesConfigurator.swift */; };
+		45FF99BD2BAB719800919B1F /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF99BC2BAB719800919B1F /* Math.swift */; };
+		45FF99BE2BAB719800919B1F /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF99BC2BAB719800919B1F /* Math.swift */; };
+		45FF99C02BABB49300919B1F /* grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FF99BF2BABB49300919B1F /* grid.jpg */; };
+		45FF99C12BABB49300919B1F /* grid.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45FF99BF2BABB49300919B1F /* grid.jpg */; };
+		45FF99D32BAC8D9700919B1F /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */; };
+		45FF99D42BAC8D9700919B1F /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		45B70BE22BB0E2A2003BA92A /* Slender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Slender.swift; sourceTree = "<group>"; };
+		45B70BE82BB193CE003BA92A /* GameOverlayMacOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverlayMacOS.swift; sourceTree = "<group>"; };
+		45B70BED2BB2C41E003BA92A /* CGPointExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGPointExtension.swift; sourceTree = "<group>"; };
 		45C54B162BAA4A4500160C54 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
 		45C54B172BAA4A4500160C54 /* Art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Art.scnassets; sourceTree = "<group>"; };
 		45C54B182BAA4A4700160C54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -36,6 +64,16 @@
 		45C54B322BAA4A4700160C54 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		45C54B352BAA4A4700160C54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		45C54B372BAA4A4700160C54 /* Slender_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Slender_macOS.entitlements; sourceTree = "<group>"; };
+		45C54B472BAA558600160C54 /* Keycodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keycodes.swift; sourceTree = "<group>"; };
+		45C54B4A2BAA5B3900160C54 /* Vector2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vector2.swift; sourceTree = "<group>"; };
+		45C54B4D2BAA66D900160C54 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		45C677E42BB95E86000791FC /* Tree2.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Tree2.dae; sourceTree = "<group>"; };
+		45C677E52BB95E86000791FC /* Trees.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = Trees.dae; sourceTree = "<group>"; };
+		45C677E62BB95E86000791FC /* Terrain.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = Terrain.dae; path = ../../../../Desktop/Terrain.dae; sourceTree = "<group>"; };
+		45C6781F2BB96867000791FC /* TreesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreesConfigurator.swift; sourceTree = "<group>"; };
+		45FF99BC2BAB719800919B1F /* Math.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		45FF99BF2BABB49300919B1F /* grid.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grid.jpg; sourceTree = "<group>"; };
+		45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysicsCategories.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +94,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		453BFD3D2BB4B79500DD88DC /* TempResources */ = {
+			isa = PBXGroup;
+			children = (
+				45C677E62BB95E86000791FC /* Terrain.dae */,
+				45C677E42BB95E86000791FC /* Tree2.dae */,
+				45C677E52BB95E86000791FC /* Trees.dae */,
+			);
+			path = TempResources;
+			sourceTree = "<group>";
+		};
 		45C54B102BAA4A4400160C54 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +117,14 @@
 		45C54B152BAA4A4500160C54 /* Slender Shared */ = {
 			isa = PBXGroup;
 			children = (
+				453BFD3D2BB4B79500DD88DC /* TempResources */,
+				45FF99BF2BABB49300919B1F /* grid.jpg */,
+				45C54B462BAA557700160C54 /* Helpers */,
+				45FF99D22BAC8D9700919B1F /* PhysicsCategories.swift */,
+				45C54B4D2BAA66D900160C54 /* Character.swift */,
+				45B70BE22BB0E2A2003BA92A /* Slender.swift */,
 				45C54B162BAA4A4500160C54 /* GameController.swift */,
+				45C6781F2BB96867000791FC /* TreesConfigurator.swift */,
 				45C54B172BAA4A4500160C54 /* Art.scnassets */,
 				45C54B182BAA4A4700160C54 /* Assets.xcassets */,
 			);
@@ -99,12 +154,24 @@
 		45C54B2F2BAA4A4700160C54 /* Slender macOS */ = {
 			isa = PBXGroup;
 			children = (
+				45B70BE82BB193CE003BA92A /* GameOverlayMacOS.swift */,
 				45C54B302BAA4A4700160C54 /* AppDelegate.swift */,
 				45C54B322BAA4A4700160C54 /* GameViewController.swift */,
 				45C54B342BAA4A4700160C54 /* Main.storyboard */,
 				45C54B372BAA4A4700160C54 /* Slender_macOS.entitlements */,
 			);
 			path = "Slender macOS";
+			sourceTree = "<group>";
+		};
+		45C54B462BAA557700160C54 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				45C54B472BAA558600160C54 /* Keycodes.swift */,
+				45C54B4A2BAA5B3900160C54 /* Vector2.swift */,
+				45FF99BC2BAB719800919B1F /* Math.swift */,
+				45B70BED2BB2C41E003BA92A /* CGPointExtension.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,8 +255,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C54B262BAA4A4700160C54 /* Main.storyboard in Resources */,
+				45FF99C02BABB49300919B1F /* grid.jpg in Resources */,
+				45C677E92BB95E86000791FC /* Tree2.dae in Resources */,
 				45C54B292BAA4A4700160C54 /* LaunchScreen.storyboard in Resources */,
+				45C677EB2BB95E86000791FC /* Trees.dae in Resources */,
 				45C54B3C2BAA4A4700160C54 /* Assets.xcassets in Resources */,
+				45C677ED2BB95E86000791FC /* Terrain.dae in Resources */,
 				45C54B3A2BAA4A4700160C54 /* Art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -199,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				45C54B362BAA4A4700160C54 /* Main.storyboard in Resources */,
+				45C677EA2BB95E86000791FC /* Tree2.dae in Resources */,
+				45FF99C12BABB49300919B1F /* grid.jpg in Resources */,
 				45C54B3D2BAA4A4700160C54 /* Assets.xcassets in Resources */,
+				45C677EC2BB95E86000791FC /* Trees.dae in Resources */,
+				45C677EE2BB95E86000791FC /* Terrain.dae in Resources */,
 				45C54B3B2BAA4A4700160C54 /* Art.scnassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,9 +286,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C54B482BAA558600160C54 /* Keycodes.swift in Sources */,
 				45C54B232BAA4A4700160C54 /* GameViewController.swift in Sources */,
+				45B70BEE2BB2C41E003BA92A /* CGPointExtension.swift in Sources */,
 				45C54B382BAA4A4700160C54 /* GameController.swift in Sources */,
+				45FF99BD2BAB719800919B1F /* Math.swift in Sources */,
+				45C54B4E2BAA66D900160C54 /* Character.swift in Sources */,
+				45C54B4B2BAA5B3900160C54 /* Vector2.swift in Sources */,
+				45FF99D32BAC8D9700919B1F /* PhysicsCategories.swift in Sources */,
+				45B70BE32BB0E2A2003BA92A /* Slender.swift in Sources */,
 				45C54B212BAA4A4700160C54 /* AppDelegate.swift in Sources */,
+				45C678202BB96867000791FC /* TreesConfigurator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,9 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C54B492BAA558600160C54 /* Keycodes.swift in Sources */,
 				45C54B332BAA4A4700160C54 /* GameViewController.swift in Sources */,
 				45C54B392BAA4A4700160C54 /* GameController.swift in Sources */,
+				45FF99BE2BAB719800919B1F /* Math.swift in Sources */,
+				45C678212BB96867000791FC /* TreesConfigurator.swift in Sources */,
+				45C54B4F2BAA66D900160C54 /* Character.swift in Sources */,
+				45C54B4C2BAA5B3900160C54 /* Vector2.swift in Sources */,
+				45B70BEA2BB193CE003BA92A /* GameOverlayMacOS.swift in Sources */,
+				45FF99D42BAC8D9700919B1F /* PhysicsCategories.swift in Sources */,
+				45B70BE42BB0E2A2003BA92A /* Slender.swift in Sources */,
 				45C54B312BAA4A4700160C54 /* AppDelegate.swift in Sources */,
+				45B70BEF2BB2C41E003BA92A /* CGPointExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
